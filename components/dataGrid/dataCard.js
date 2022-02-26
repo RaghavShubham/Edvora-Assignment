@@ -1,35 +1,47 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import styles from "./dataCard.module.css";
 
 export default function DataCard({ ride }) {
   return (
     <div className={`flex ${styles.rideCard}`}>
-      <div className={`flex ${styles.dataCardLeft}`}>
-        <img src={ride["map_url"]} className={styles.mapImage} alt="map" />
-        <div>
-          <p>
-            Ride Id : <span>{ride.id}</span>
+      <div key="daftd" className={`flex ${styles.dataCardLeft}`}>
+        <img
+          key="image-data"
+          src={ride["map_url"]}
+          className={styles.mapImage}
+          alt="map"
+        />
+        <div key="datacardd">
+          <p key="datacardtext">
+            Ride Id : <span key="datacardd">{ride.id}</span>
           </p>
-          <p>
-            Origin Station : <span>{ride.origin_station_code}</span>
+          <p key="datacarddd">
+            Origin Station :{" "}
+            <span key="datacardd">{ride.origin_station_code}</span>
           </p>
-          <p>
-            Station Path: <span>[ {ride.station_path.toString()} ]</span>
+          <p key="datacarddd">
+            Station Path:{" "}
+            <span key="datacardd">[ {ride.station_path.toString()} ]</span>
           </p>
-          <p>
-            Date: <span>{ride.date}</span>
+          <p key="datacarddddd">
+            Date: <span key="datacardd">{ride.date}</span>
           </p>
-          <p>
-            Distance: <span>{ride.distance}</span>
+          <p key="datacarddddddd">
+            Distance: <span key="datacardd">{ride.distance}</span>
           </p>
         </div>
       </div>
-      <div className={`flex ${styles.cityState}`}>
-        <div className={styles.geoContainer}>
-          <p className={styles.geoText}>{ride.city}</p>
+      <div key="datacardd" className={`flex ${styles.cityState}`}>
+        <div key="datacardd" className={styles.geoContainer}>
+          <p key="datacardd" className={styles.geoText}>
+            {ride.city}
+          </p>
         </div>
-        <div className={styles.geoContainer}>
-          <p className={styles.geoText}>{ride.state}</p>
+        <div key="datacardd" className={styles.geoContainer}>
+          <p key="datacardd" className={styles.geoText}>
+            {ride.state}
+          </p>
         </div>
       </div>
     </div>

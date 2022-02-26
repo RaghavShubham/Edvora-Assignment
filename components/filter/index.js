@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/jsx-key */
 import React, { useState } from "react";
 import styles from "./filter.module.css";
 
