@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/jsx-key */
 import axios from "axios";
 import React, { useEffect } from "react";
 import styles from "./header.module.css";
