@@ -1,0 +1,20 @@
+.btnOuter {
+  cursor: pointer;
+  margin-right: 44px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #d0cbcb;
+}
+
+.btnActive {
+  cursor: pointer;
+  margin-right: 44px;
+  font-weight: 700;
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+  font-size: 18px;
+}
+
+.btnText {
+  margin: 4px 0px;
+}

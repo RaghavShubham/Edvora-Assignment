@@ -1,0 +1,46 @@
+.rideCard {
+  background: #171717;
+  border-radius: 10px;
+  margin-bottom: 13px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.dataCardLeft {
+  width: 70%;
+  align-items: center;
+}
+
+.dataCardLeft p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #cfcfcf;
+}
+
+.dataCardLeft span {
+  color: #ffffff;
+}
+
+.mapImage {
+  width: 20%;
+  border-radius: 5px;
+  margin-right: 44px;
+}
+
+.cityState {
+  justify-self: flex-end;
+}
+
+.geoContainer {
+  background: #0000008f;
+  height: fit-content;
+  padding: 4px 10px;
+  border-radius: 30px;
+  margin-right: 24px;
+}
+
+.geoText {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+}

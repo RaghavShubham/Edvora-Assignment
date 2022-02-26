@@ -1,0 +1,32 @@
+.header {
+  background: #101010;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+  padding: 0 2rem;
+  height: 84px;
+}
+
+.logo {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.userPart {
+  align-items: center;
+}
+
+.userName {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.profilePicture {
+  height: 44px;
+  width: 44px;
+  border-radius: 22px;
+  margin: 20px;
+}

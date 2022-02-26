@@ -1,0 +1,45 @@
+.filterContainer {
+  align-items: center;
+  cursor: pointer;
+  margin-right: 20px;
+  position: relative;
+}
+
+.icon {
+  height: 12px;
+  width: 18px;
+  margin-right: 8px;
+}
+
+.modalOpen {
+  background: #131313;
+  padding: 30px 20px;
+  position: absolute;
+  z-index: 99;
+  top: 30px;
+  right: 20px;
+  border-radius: 15px;
+  color: #a5a5a5;
+  font-size: 20px;
+  font-weight: 200;
+  width: 200px;
+}
+
+.modalOpen p {
+  margin: 0px 0px 10px;
+}
+
+.modalOpen select {
+  width: 100%;
+  padding: 8px 12px;
+  background: #232323;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 17px;
+}
+
+.modalClose {
+  display: none;
+}
